@@ -43,6 +43,15 @@ h1{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+.store-footer{
+    margin-top: 10%;
+    border-top: solid black 3px;
+}
+
+.store-footer a{
+    color: black;
+}
+
 .container {
     padding: 3.5rem 0;
     width: 75%;
