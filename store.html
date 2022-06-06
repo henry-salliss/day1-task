@@ -8,7 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Store</h1>
-    <p>Please browse our clothing selection. </p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="filters">
+            <label for="filter">
+                <select name="filter" id="filter">
+                    <option value="jackets">Jackets</option>
+                    <option value="tshirts">T-Shirts</option>
+                    <option value="jackets">Trousers</option>
+                    <option value="jackets">Dresses</option>
+                </select>
+            </label>
+            <label for="sort">Sort by:</label>
+            <select name="sort" id="sort">
+                <option value="a-z">A-Z</option>
+                <option value="Z-A">Z-A</option>
+                <option value="low">Price, Low to High</option>
+                <option value="low">Price, High to Low</option>
+            </select>
+        </div>
+        <h1>Jackets</h1>
+    </main>
 </body>
 </html>
