@@ -16,22 +16,31 @@ nav ul{
     padding: 3%;
 }
 
+h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
 #filters{
     text-align: center;
 }
 
-/* Eve */
-
-:root {
-    --background1: #FFFFFF;
-    --background2: #F6F6F4;
-    --background3: #BFB2AC;
-    --text1: #241c15;
-    --text2: #403b3b;
+#products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-img {
-    max-width: 100%;
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.item img{
+    width: 300px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .container {
