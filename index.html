@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLOTHES</title>   
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="store.html">Store</a></li>
-                <li><a href="cart.html"> Your Shopping Cart</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>la pâquerette</title>
+      <!--Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Parisienne&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+         crossorigin="anonymous"
+      />
+      <!--Javascript-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="scripts/script.js"></script>
+      <!--CSS-->
+      <link rel="stylesheet" href="css/stylesheet.css" />
+   </head>
+   <body>
+      <div class="nav-wrapper">
+         <nav class="navbar">
+            <div></div>
+            <img src="images/logo_small.png" alt="The La Pâquerette logo, a vase of flowers" />
+            <div class="head">la pâquerette</div>
+            <div class="menu-toggle" id="mobile-menu">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+            <ul class="nav no-search">
+               <li class="nav-item"><a href="#">Home</a></li>
+               <li class="nav-item"><a href="#">Store</a></li>
+               <li class="nav-item"><a href="#">Cart</a></li>
+               <li class="nav-item"><a href="#">About Us</a></li>
+               <i class="fas fa-search" id="search-icon"></i>
+               <input class="search-input" type="text" placeholder="Search..." size="30" />
             </ul>
-        </nav>
-    </header>
-</body>
-<footer>
-    <p><a href="Accessibility">Accessibility Options</a></p>
-    <p><a href="Socials">Socials</a></p>
-    <p><a href="mailto:sales@clothing.com">sales@clothing.com</a></p>
-  </footer>
+         </nav>
+      </div>
+      <div class="container">
+         <div class="content">
+            <div class="img">
+               <img src="images/logo.png" alt="The La Pâquerette logo, a vase of flowers" />
+            </div>
+         </div>
+         <div class="content">
+            <div class="text">
+               <div class="text_header">Hello</div>
+               <div class="text_body">
+                  Mauris ultrices nibh ac nibh rutrum, at viverra orci maximus. Nulla ex justo, congue faucibus tortor
+                  at, pulvinar placerat ex. Aliquam bibendum consectetur lectus vel finibus. Aliquam non ultricies nisi.
+               </div>
+               <div class="text_body">
+                  Cras vel velit mollis, scelerisque justo at, venenatis lorem. Morbi lacus orci, tempus eget ultrices
+                  eu, sollicitudin vitae sapien. Ut id sem id orci rutrum placerat. Nunc sed egestas lectus.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="content">
+            <div class="text">
+               <div class="text_header">Hello</div>
+               <div class="text_body">
+                  Mauris ultrices nibh ac nibh rutrum, at viverra orci maximus. Nulla ex justo, congue faucibus tortor
+                  at, pulvinar placerat ex. Aliquam bibendum consectetur lectus vel finibus. Aliquam non ultricies nisi.
+               </div>
+               <div class="text_body">
+                  Cras vel velit mollis, scelerisque justo at, venenatis lorem. Morbi lacus orci, tempus eget ultrices
+                  eu, sollicitudin vitae sapien. Ut id sem id orci rutrum placerat. Nunc sed egestas lectus.
+               </div>
+            </div>
+         </div>
+         <div class="content">
+            <div class="img">
+               <img src="images/logo.png" alt="The La Pâquerette logo, a vase of flowers" />
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
