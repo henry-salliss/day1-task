@@ -248,22 +248,7 @@ input {
 /**********  STORE.HTML STYLES *************/
 
 
-li{
-    list-style-type: none;
-}
 
-a{
-    text-decoration: none;
-    color: white;
-}
-nav ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: black;
-    padding: 3%;
-}
 
 h1{
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -271,6 +256,7 @@ h1{
 
 #filters{
     text-align: center;
+    margin-top: 20%;
 }
 
 #products{
