@@ -243,3 +243,60 @@ input {
       display: none;
     }
 }
+
+
+/**********  STORE.HTML STYLES *************/
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 3%;
+}
+
+h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#filters{
+    text-align: center;
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.item img{
+    width: 300px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.store-footer{
+    margin-top: 10%;
+    border-top: solid black 3px;
+}
+
+.store-footer a{
+    color: black;
+}
