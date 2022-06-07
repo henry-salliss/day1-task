@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store Page</title>   
-          <!--Fonts-->
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link
-             href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Parisienne&display=swap"
-             rel="stylesheet"
-          />
-          <link
-             rel="stylesheet"
-             href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-             integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-             crossorigin="anonymous"
-          />
-          <!--Javascript-->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-          <script src="scripts/script.js"></script>
-    <link rel="stylesheet" href="/css/stylesheet.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Koulen&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="nav-wrapper">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Store Page</title>
+      <!--Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Parisienne&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+         crossorigin="anonymous"
+      />
+      <!--Javascript-->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+      />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="scripts/script.js"></script>
+      <link rel="stylesheet" href="/css/stylesheet.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Koulen&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <header>
+         <div class="nav-wrapper">
             <nav class="navbar">
                <img src="images/logo_small.png" alt="The La Pâquerette logo, a vase of flowers" />
                <div class="head">la pâquerette</div>
@@ -46,80 +54,112 @@
                </ul>
             </nav>
          </div>
-    </header>
+      </header>
 
-    <main>
-        <div id="filters">
+      <main>
+         <div id="filters">
             <label for="filter">
-                <select name="filter" id="filter">
-                    <option value="jackets">Jackets</option>
-                    <option value="tshirts">T-Shirts</option>
-                    <option value="jackets">Trousers</option>
-                    <option value="jackets">Dresses</option>
-                </select>
+               <select name="filter" id="filter">
+                  <option value="jackets">Jackets</option>
+                  <option value="tshirts">T-Shirts</option>
+                  <option value="jackets">Trousers</option>
+                  <option value="jackets">Dresses</option>
+               </select>
             </label>
             <label for="sort">Sort by:</label>
             <select name="sort" id="sort">
-                <option value="a-z">A-Z</option>
-                <option value="Z-A">Z-A</option>
-                <option value="low">Price, Low to High</option>
-                <option value="low">Price, High to Low</option>
+               <option value="a-z">A-Z</option>
+               <option value="Z-A">Z-A</option>
+               <option value="low">Price, Low to High</option>
+               <option value="low">Price, High to Low</option>
             </select>
-        </div>
-        <section id="products">
+         </div>
+         <section id="products">
             <div class="product-type">
-                <h1 class="product-title">Jackets</h1>
-                <div class="item">
-                    <img src="https://media.istockphoto.com/photos/male-coat-isolated-on-the-white-picture-id163208487?k=20&m=163208487&s=612x612&w=0&h=TZ5XnBejf_EAnGjMPfsRf3zu-8G9DYHIFyTiyrnwFms=" alt="jacket">
-                    <p>Red Jacket <span>£35.00</span></p>
-                </div>
-                <div class="item">
-                    <img src="https://static.fibre2fashion.com/MemberResources/LeadResources/1/2019/8/Seller/19167233/Images/19167233_0_men-s-jacket.jpg" alt="brown jacket">
-                    <p>Brown Jacket <span>£84.99</span></p>
-                </div>
-                <div class="item">
-                    <img src="https://media.istockphoto.com/photos/black-jacket-and-tshirt-isolated-on-white-background-picture-id1210106212?k=20&m=1210106212&s=612x612&w=0&h=bRQ_Fokg3CAGdR15gi3ZWlkDwocYPFr0gI8ksp39mTE=" alt="black jacket">
-                    <p>Black Jacket <span>£50.00</span></p>
-                </div>
+               <h1 class="product-title">Jackets</h1>
+               <div class="item">
+                  <img
+                     src="https://media.istockphoto.com/photos/male-coat-isolated-on-the-white-picture-id163208487?k=20&m=163208487&s=612x612&w=0&h=TZ5XnBejf_EAnGjMPfsRf3zu-8G9DYHIFyTiyrnwFms="
+                     alt="jacket"
+                  />
+                  <p>Red Jacket <span>£35.00</span></p>
+               </div>
+               <div class="item">
+                  <img
+                     src="https://static.fibre2fashion.com/MemberResources/LeadResources/1/2019/8/Seller/19167233/Images/19167233_0_men-s-jacket.jpg"
+                     alt="brown jacket"
+                  />
+                  <p>Brown Jacket <span>£84.99</span></p>
+               </div>
+               <div class="item">
+                  <img
+                     src="https://media.istockphoto.com/photos/black-jacket-and-tshirt-isolated-on-white-background-picture-id1210106212?k=20&m=1210106212&s=612x612&w=0&h=bRQ_Fokg3CAGdR15gi3ZWlkDwocYPFr0gI8ksp39mTE="
+                     alt="black jacket"
+                  />
+                  <p>Black Jacket <span>£50.00</span></p>
+               </div>
             </div>
             <div class="product-type">
-                <h1 class="product-title">T-Shirts</h1>
-                <div class="item">
-                    <img src="https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886008__340.png" alt="red tshirt">
-                    <p>Red T-Shirt <span>£5.99</span></p>
-                </div>
-                <div class="item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg" alt="blue tshirt">
-                    <p>Blue T-Shirt <span>£4.99</span></p>
-                </div>
-                <div class="item">
-                    <img src="https://www.fenwick.co.uk/dw/image/v2/BBKK_PRD/on/demandware.static/-/Sites-fenwick-master-catalog/default/dwa720707e/images/large/A568874.jpg?sw=600&sh=800&sm=fit" alt="black tshirt">
-                    <p>Black T-Shirt <span>£10.00</span></p>
-                </div>
+               <h1 class="product-title">T-Shirts</h1>
+               <div class="item">
+                  <img src="https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886008__340.png" alt="red tshirt" />
+                  <p>Red T-Shirt <span>£5.99</span></p>
+               </div>
+               <div class="item">
+                  <img
+                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg"
+                     alt="blue tshirt"
+                  />
+                  <p>Blue T-Shirt <span>£4.99</span></p>
+               </div>
+               <div class="item">
+                  <img
+                     src="https://www.fenwick.co.uk/dw/image/v2/BBKK_PRD/on/demandware.static/-/Sites-fenwick-master-catalog/default/dwa720707e/images/large/A568874.jpg?sw=600&sh=800&sm=fit"
+                     alt="black tshirt"
+                  />
+                  <p>Black T-Shirt <span>£10.00</span></p>
+               </div>
             </div>
 
             <div class="product-type">
-                <h1 class="product-title">Trousers</h1>
-                <div class="item">
-                    <img src="https://cdn.shopify.com/s/files/1/0282/6210/5172/products/24T___Navy_d2ca9588-bf13-4b63-a706-0c901f23a39d_x280.jpg?v=1645707098" alt="navy trousers">
-                    <p>Navy trousers <span>£8.99</span></p>
-                </div>
-                <div class="item">
-                    <img src="https://media.istockphoto.com/photos/mens-trousers-picture-id510615049?k=20&m=510615049&s=612x612&w=0&h=V2qWdnou1w6ctJnfiRlYxQp6QwgX8yRMBBOCMxm7ei0=" alt="brown trousers">
-                    <p>Brown Trousers <span>£12.99</span></p>
-                </div>
-                <div class="item">
-                    <img src="https://content.moss.co.uk/images/extralarge/966487679_01.jpg" alt="formal trousers">
-                    <p>Formal trousers <span>£20.00</span></p>
-                </div>
+               <h1 class="product-title">Trousers</h1>
+               <div class="item">
+                  <img
+                     src="https://cdn.shopify.com/s/files/1/0282/6210/5172/products/24T___Navy_d2ca9588-bf13-4b63-a706-0c901f23a39d_x280.jpg?v=1645707098"
+                     alt="navy trousers"
+                  />
+                  <p>Navy trousers <span>£8.99</span></p>
+               </div>
+               <div class="item">
+                  <img
+                     src="https://media.istockphoto.com/photos/mens-trousers-picture-id510615049?k=20&m=510615049&s=612x612&w=0&h=V2qWdnou1w6ctJnfiRlYxQp6QwgX8yRMBBOCMxm7ei0="
+                     alt="brown trousers"
+                  />
+                  <p>Brown Trousers <span>£12.99</span></p>
+               </div>
+               <div class="item">
+                  <img src="https://content.moss.co.uk/images/extralarge/966487679_01.jpg" alt="formal trousers" />
+                  <p>Formal trousers <span>£20.00</span></p>
+               </div>
             </div>
-        </section>
-    </main>
-
-    <footer class="store-footer">
-        <p><a href="Accessibility">Accessibility Options</a></p>
-        <p><a href="Socials">Socials</a></p>
-        <p><a href="mailto:sales@clothing.com">sales@clothing.com</a></p>
-      </footer>
-</body>
+         </section>
+      </main>
+      <div class="footer-basic">
+         <footer>
+            <div class="social">
+               <a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
+               <a href="https://www.snapchat.com/en-GB"><i class="icon ion-social-snapchat"></i></a>
+               <a href="https://twitter.com/home"><i class="icon ion-social-twitter"></i></a>
+               <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+               <li class="list-inline-item"><a href="index.html">Home</a></li>
+               <li class="list-inline-item"><a href="aboutus.html">About Us</a></li>
+               <li class="list-inline-item"><a href="#">Terms</a></li>
+               <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">La Pâquerette © 2022</p>
+         </footer>
+      </div>
+   </body>
 </html>
