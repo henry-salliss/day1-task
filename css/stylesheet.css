@@ -250,7 +250,7 @@ input {
 
 
 
-h1{
+.product-title{
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -285,4 +285,55 @@ h1{
 
 .store-footer a{
     color: black;
+}
+
+@media only screen and (min-width: 720px) {
+    .product-title{
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        text-align: center;
+    }
+    
+    #filters{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 1068px) {
+    .product-title{
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        text-align: left;
+        padding-left: 10%;
+    }
+    
+    #filters{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .product-type{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    
+    .item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .item img{
+        width: 300px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    
+    .store-footer{
+        margin-top: 10%;
+        border-top: solid black 3px;
+    }
+    
+    .store-footer a{
+        color: black;
+    }
 }
