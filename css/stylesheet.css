@@ -83,6 +83,7 @@ body {
 .navbar .head {
     font-size: 1.5rem;
     font-family: 'Parisienne', cursive;
+    user-select: none;
 }
 
 .navbar img {
