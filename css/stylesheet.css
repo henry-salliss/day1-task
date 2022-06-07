@@ -16,6 +16,12 @@ body {
     font-family: 'EB Garamond', serif;
 }
 
+#grad1 {
+    background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .container {
     padding: 3.5rem 0;
     width: 65%;
@@ -33,6 +39,12 @@ body {
 .container .content .text {
     padding: 0;
     padding-left: 8.33%;
+    width: 100%;
+}
+
+#nopad {
+    padding: 0;
+    padding-left: 0%;
     width: 100%;
 }
 
