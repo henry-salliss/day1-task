@@ -1,8 +1,7 @@
 :root {
-    --background1: #FFFFFF;
-    --background1trans: #ffffff;
-    --background2: #F6F6F4;
-    --background3: #BFB2AC;
+    --background1: hsl(0, 0%, 100%);
+    --background2: hsl(0, 0%, 97.5%);
+    --background3: hsl(0, 0%, 95%);
     --text1: #231F1B;
     --text2: #3A3837;
     --text3: #595453;
@@ -18,8 +17,19 @@ body {
 
 #grad1 {
     background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet, purple);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.alt {
+    background-color: var(--background2);
+}
+
+.containerwrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -81,7 +91,7 @@ body {
     width: 100%;
     position: sticky;
     top: 0;
-    background-color: var(--background1trans);
+    background-color: var(--background1);
 }
 
 .navbar {
@@ -349,3 +359,64 @@ input {
         color: black;
     }
 }
+
+/* Footer */
+.footer-basic {
+    padding:20px 0 40px 0;
+    background-color: var(--background1);
+    color: (var(--text1))
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
