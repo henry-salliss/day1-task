@@ -76,8 +76,8 @@ body {
     display: grid;
     grid-template-columns: 0.25fr 1fr 3fr 6fr;
     align-items: center;
-    overflow: hidden;
     height: 10vh;
+    overflow: hidden;
 }
 
 .navbar .head {
@@ -97,7 +97,11 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     justify-self: end;
-    width: 40%;
+    width: 50%;
+}
+
+.navbar li {
+    white-space: nowrap;
 }
 
 .navbar a {
@@ -125,7 +129,8 @@ body {
 }
 
 .search {
-    transform: translate(-35%);
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
     transition: transform 0.7s ease-in-out;
     color: var(--text2);
 }
@@ -147,13 +152,12 @@ body {
 .search-active {
     opacity: 1;
     z-index: 0;
-    width: 150%;
 }
 
 input {
     border: 0;
     border-left: 1px solid #ccc;
-    border-radius: 0; /* FOR SAFARI */
+    border-radius: 0;
     outline: 0;
     padding: 5px;
 }
@@ -161,7 +165,7 @@ input {
 .menu-toggle .bar{
     width: 25px;
     height: 3px;
-    background-color: #3f3f3f;
+    background-color: var(--text2);
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -183,10 +187,16 @@ input {
   }
 
   #mobile-menu.is-active .bar:nth-child(1){
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+    -o-transform: translateY(8px) rotate(45deg);
     transform: translateY(8px) rotate(45deg);
   }
   
   #mobile-menu.is-active .bar:nth-child(3){
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+    -o-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
   }
 
@@ -196,10 +206,11 @@ input {
         flex-direction: column;
         position: fixed;
         justify-content: start;
-        top: 55px;
-        background-color: #fff;
+        padding-inline-start: 0px;
+        top: 10vh;
+        background-color: var(--background1);
         width: 100%;
-        height: calc(100vh - 55px);
+        height: 90vh;
         transform: translate(-101%);
         text-align: center;
         overflow: hidden;
